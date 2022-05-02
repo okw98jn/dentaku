@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>電卓</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4">
+                <input id="display" type="text" value="0" disabled>
+            </td>
+        </tr>
+
+        <tr>
+            <td><button class="btn num-btn" data-index-id="7">7</button></td>
+            <td><button class="btn num-btn" data-index-id="8">8</button></td>
+            <td><button class="btn num-btn" data-index-id="9">9</button></td>
+            <td><button class="btn cal-btn" data-index-id="+">+</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="btn num-btn" data-index-id="4">4</button></td>
+            <td><button class="btn num-btn" data-index-id="5">5</button></td>
+            <td><button class="btn num-btn" data-index-id="6">6</button></td>
+            <td><button class="btn cal-btn" data-index-id="-">-</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="btn num-btn" data-index-id="1">1</button></td>
+            <td><button class="btn num-btn" data-index-id="2">2</button></td>
+            <td><button class="btn num-btn" data-index-id="3">3</button></td>
+            <td><button class="btn cal-btn" data-index-id="*">×</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="btn zero" data-index-id="0">0</button></td>
+            <td><button class="btn zero"  data-index-id="00">00</button></td>
+            <td><button class="btn" id="point" data-index-id=".">.</button></td>
+            <td><button class="btn cal-btn" data-index-id="/">÷</button></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <button id="clear">AC</button>
+            </td>
+            <td colspan="2">
+                <button id ="equal-btn">=</button>
+            </td>
+        </tr>
+
+    </table>
+
+
+    <script type="text/javascript" src="/Users/ookawakokoro/Desktop/ポテパンキャンプ/JavaScript/dentaku/JS/main.js" charset="utf-8"></script>
+</body>
+</html>
